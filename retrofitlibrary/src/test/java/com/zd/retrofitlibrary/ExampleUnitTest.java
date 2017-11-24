@@ -1,4 +1,4 @@
-package logistics.r.com.retrofitlibrary;
+package com.zd.retrofitlibrary;
 
 import org.junit.Test;
 

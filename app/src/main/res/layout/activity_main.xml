@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.retrofit.demo.MainActivity">
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_rx_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rx+retrofit：统一api方案" />
+
+
+    <Button
+        android:id="@+id/btn_rx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rx+retrofit绝对封装" />
+
+
+    <Button
+        android:id="@+id/btn_rx_uploade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rx+retrofit上传" />
+
+
+    <Button
+        android:id="@+id/btn_rx_mu_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多任务断点续传下载" />
+
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="20dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

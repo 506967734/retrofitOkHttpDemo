@@ -1,1 +1,1 @@
-include ':app', ':retrofitLibrary'
+include ':app', ':retrofitlibrary'
